@@ -1,4 +1,6 @@
 package edu.polytech.nextprevproject;
 
-public class Activity8 extends MainActivity {
+import android.app.Activity;
+
+public class Activity8  extends Activity {
 }

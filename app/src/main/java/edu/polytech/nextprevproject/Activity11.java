@@ -1,4 +1,6 @@
 package edu.polytech.nextprevproject;
 
-public class Activity11 {
+import android.app.Activity;
+
+public class Activity11  extends Activity {
 }
