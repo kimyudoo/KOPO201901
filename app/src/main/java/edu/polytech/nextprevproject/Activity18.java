@@ -15,6 +15,8 @@ public class Activity18 extends Activity {
         goBack.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Activity17.class);
+                startActivity(intent);
                 finish();
             }
         });
