@@ -15,7 +15,18 @@ public class Activity16  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity16);
 
+
+        Button toForward = (Button) findViewById(R.id.toForwardBtn);
         Button toNext = (Button) findViewById(R.id.toNextBtn);
+
+        toForward.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),
+                        Activity15.class);
+                startActivity(intent);
+            }
+        });
+
         toNext.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),
