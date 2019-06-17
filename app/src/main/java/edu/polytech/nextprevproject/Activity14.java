@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class Activity14  extends Activity {
+public class Activity14 extends Activity {
 
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity14);
 
@@ -24,7 +24,7 @@ public class Activity14  extends Activity {
                 Intent intent = new Intent(getApplicationContext(),
                         Activity13.class);
                 startActivity(intent);
-
+                finish();
             }
 
         });
@@ -35,7 +35,7 @@ public class Activity14  extends Activity {
                 Intent intent = new Intent(getApplicationContext(),
                         Activity15.class);
                 startActivity(intent);
-
+                finish();
             }
 
         });
