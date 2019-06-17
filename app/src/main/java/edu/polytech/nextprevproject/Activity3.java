@@ -3,12 +3,15 @@ package edu.polytech.nextprevproject;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.sql.Time;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -47,11 +50,7 @@ public class Activity3 extends Activity {
     }
 
     private String getDate(){
-        Date date = new Date();
-        DateFormat df = new SimpleDateFormat("yyyy-MM-dd", Locale.KOREA);
-        df.setTimeZone(TimeZone.getTimeZone("Asia/Seoul"));
-        String currentDateTimeString = df.format(date);
-
+        String currentDateTimeString = new SimpleDateFormat("yyyy-MM-dd", Locale.KOREA).format(Calendar.getInstance(TimeZone.getTimeZone("GMT+09:00")).getTime());
         return currentDateTimeString;
     }
 }
