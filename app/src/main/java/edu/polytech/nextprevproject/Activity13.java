@@ -23,7 +23,6 @@ public class Activity13 extends Activity {
 
             startActivity(intent);
 
-
         }
     });
     Button btnAfterActivity = (Button) findViewById(R.id.after13);
