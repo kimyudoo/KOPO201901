@@ -33,7 +33,7 @@ public class Activity12 extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(Activity12.this,Activity11.class);
                 startActivity(intent);
-                finish();
+
             }
         });
 
