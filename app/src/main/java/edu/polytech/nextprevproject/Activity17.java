@@ -20,6 +20,7 @@ public class Activity17 extends Activity {
                 Intent intent = new Intent(getApplicationContext(),
                         Activity16.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -30,6 +31,7 @@ public class Activity17 extends Activity {
                 Intent intent = new Intent(getApplicationContext(),
                         Activity18.class);
                 startActivity(intent);
+                finish();
             }
         });
 
