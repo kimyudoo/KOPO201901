@@ -35,13 +35,13 @@ public class Activity4  extends Activity {
                     Toast.makeText(Activity4.this, "다음", Toast.LENGTH_SHORT).show();
                     Intent nextIntent = new Intent(getApplicationContext(), Activity5.class);
                     startActivity(nextIntent);
-
+                    finish();
                     break;
                 case R.id.Activity4_Previous_Button:
                     Toast.makeText(Activity4.this, "이전", Toast.LENGTH_SHORT).show();
                     Intent previousIntent = new Intent(getApplicationContext(), Activity3.class);
                     startActivity(previousIntent);
-
+                    finish();
                     break;
             }
         }
