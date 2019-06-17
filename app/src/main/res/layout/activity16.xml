@@ -4,29 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity16">
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
-
+        android:gravity="center"
+        android:orientation="vertical">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="환영합니다! 버튼을 누르세요!!"
-            android:textSize="10pt"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+            android:text="activity16입니다."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버튼을 클릭하면 다음 페이지로 넘어갑니다."/>
         <Button
-            android:id="@+id/activityMainButton"
+            android:id="@+id/toNextBtn"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="클릭하세요!!"/>
+            android:text="버~튼"/>
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
