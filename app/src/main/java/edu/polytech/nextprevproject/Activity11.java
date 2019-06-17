@@ -25,6 +25,7 @@ public class Activity11 extends Activity {
         public void onClick(View v) {
             Intent intent = new Intent(getApplicationContext(), Activity10.class);
             startActivity(intent);
+            finish();
         }
     });
 
@@ -33,6 +34,7 @@ public class Activity11 extends Activity {
         public void onClick(View v) {
             Intent intent = new Intent(getApplicationContext(), Activity12.class);
             startActivity(intent);
+            finish();
         }
     });
 
