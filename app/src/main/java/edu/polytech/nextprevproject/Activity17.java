@@ -2,5 +2,5 @@ package edu.polytech.nextprevproject;
 
 import android.app.Activity;
 
-public class activity17 extends Activity {
+public class Activity17 extends Activity {
 }
