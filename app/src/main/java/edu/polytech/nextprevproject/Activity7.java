@@ -22,6 +22,7 @@ public class Activity7  extends Activity {
              public void onClick(View view) {
                  Intent intent = new Intent(getApplicationContext(), Activity8.class);
                  startActivity(intent);
+                 finish();
              }
          });
 
@@ -29,9 +30,9 @@ public class Activity7  extends Activity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Activity7.class);
+                Intent intent = new Intent(getApplicationContext(), Activity6.class);
                 startActivity(intent);
-
+                finish();
             }
         });
 
