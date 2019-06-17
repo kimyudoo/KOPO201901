@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="20">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:weightSum="40"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+        <Button
+            android:id="@+id/backbutton10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text="앞"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="4"></Button>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="NO.10"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/nextbutton10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text="뒤"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:layout_weight="4"></Button>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
 
+
+    </LinearLayout>
 </LinearLayout>
