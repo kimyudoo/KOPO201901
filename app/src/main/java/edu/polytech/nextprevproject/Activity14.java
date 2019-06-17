@@ -1,4 +1,4 @@
 package edu.polytech.nextprevproject;
 
-public class activity14 {
+public class Activity14 {
 }
