@@ -15,6 +15,8 @@ public class Activity18 extends Activity {
         goBack.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Activity17.class);
+                startActivity(intent);
                 finish();
             }
         });
@@ -22,7 +24,7 @@ public class Activity18 extends Activity {
         Button goHome = (Button) findViewById(R.id.homeBtn18);
         goHome.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent intentHome = new Intent(getApplicationContext(), Activity1.class);
+                Intent intentHome = new Intent(getApplicationContext(), MainActivity.class);
                 intentHome.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intentHome.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intentHome);
