@@ -21,6 +21,7 @@ public class Activity10  extends Activity {
             Intent intent = new Intent(getApplicationContext(),
                     Activity9.class);
             startActivity(intent);
+            finish();
         }
     });
         nextbutton10.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +31,7 @@ public class Activity10  extends Activity {
                 Intent intent = new Intent(getApplicationContext(),
                         Activity11.class);
                 startActivity(intent);
+                finish();
             }
         });
 
