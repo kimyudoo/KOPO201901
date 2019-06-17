@@ -11,7 +11,7 @@ public class Activity17 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity17);
 
         Button Button17_1 = (Button) findViewById(R.id.Button17_1);
         Button17_1.setOnClickListener(new View.OnClickListener() {
