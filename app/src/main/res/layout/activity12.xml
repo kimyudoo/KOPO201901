@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F70707"
+
+    >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="12번"
+        android:textSize="100dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/back12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="이             전"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:id="@+id/next12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="다             음"
+        android:textSize="50dp"
+        />
 
 </LinearLayout>
