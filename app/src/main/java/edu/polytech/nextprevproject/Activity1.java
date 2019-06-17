@@ -18,6 +18,7 @@ public class Activity1 extends Activity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -27,7 +28,7 @@ public class Activity1 extends Activity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(getApplicationContext(), Activity2.class);
                 startActivity(intent1);
-
+                finish();
             }
 
 
