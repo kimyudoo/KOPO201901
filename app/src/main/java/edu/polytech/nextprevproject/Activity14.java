@@ -14,8 +14,8 @@ public class Activity14  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity14);
 
-        Button left = (Button) findViewById(R.id.buttton1);
-        Button right = (Button) findViewById(R.id.buttton2);
+        LinearLayout left = (LinearLayout) findViewById(R.id.buttton1);
+        LinearLayout right = (LinearLayout) findViewById(R.id.buttton2);
 
 
         left.setOnClickListener(new View.OnClickListener() {
