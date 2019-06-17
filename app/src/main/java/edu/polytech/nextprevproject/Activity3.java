@@ -33,6 +33,7 @@ public class Activity3 extends Activity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(getApplicationContext(), Activity2.class);
                 startActivity(intent1);
+                finish();
             }
         });
         prior.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +41,7 @@ public class Activity3 extends Activity {
             public void onClick(View view) {
                 Intent intent2 = new Intent(getApplicationContext(), Activity4.class);
                 startActivity(intent2);
+                finish();
             }
         });
     }
