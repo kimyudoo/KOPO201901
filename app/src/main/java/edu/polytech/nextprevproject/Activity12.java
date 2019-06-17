@@ -22,6 +22,7 @@ public class Activity12 extends Activity {
             public void onClick(View view) {
                 Intent intent = new Intent(Activity12.this,Activity13.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -30,6 +31,8 @@ public class Activity12 extends Activity {
 
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(Activity12.this,Activity11.class);
+                startActivity(intent);
                 finish();
             }
         });
