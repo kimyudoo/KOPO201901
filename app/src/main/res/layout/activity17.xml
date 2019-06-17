@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ff0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17번입니다"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이동하세요"
+            android:textSize="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Button17-1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move to 16"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/Button17-2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move to 18"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>
