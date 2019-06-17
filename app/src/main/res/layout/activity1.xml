@@ -2,15 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/avengers">
     <Button
         android:id="@+id/activity1Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previous"/>
+        android:layout_margin="25dp"
+        android:text="Previous"
+        />
     <Button
         android:id="@+id/activity1Button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:text="After"/>
 </LinearLayout>
