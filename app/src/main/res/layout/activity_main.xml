@@ -26,6 +26,12 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="클릭하세요!!"/>
+
+        <Button
+            android:id="@+id/activityMainSpeakButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="말로 명령하기"/>
     </LinearLayout>
 
 
